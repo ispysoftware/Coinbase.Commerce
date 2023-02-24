@@ -71,7 +71,7 @@ namespace Coinbase.Commerce.Models
       /// Hosted invoice URL
       /// </summary>
       [JsonProperty("hosted_url")]
-      public Uri HostedUrl { get; set; }
+      public string HostedUrl { get; set; }
 
       /// <summary>
       /// Invoice creation time

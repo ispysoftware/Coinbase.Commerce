@@ -51,5 +51,11 @@ namespace Coinbase.Commerce.Models
       /// </summary>
       [JsonProperty("redirect_url")]
       public string RedirectUrl { get; set; }
+
+      /// <summary>
+      /// The URL to redirect the user when payment is cancelled
+      /// </summary>
+      [JsonProperty("cancel_url")]
+      public string CancelUrl { get; set; }
    }
 }
